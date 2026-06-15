@@ -34,6 +34,21 @@ export default function Home() {
       link: "https://play.google.com/store/apps/details?id=com.mendozadev.pradoslahuerta&pcampaignid=web_share",
       category: "Mobile Application",
     },
+    {
+      title: "Diamond Plumbing Las Vegas",
+      description:
+        "Production marketing website for a licensed Las Vegas plumbing company—multi-page layout with a unified hero carousel, service catalog, click-to-call CTAs, license ribbon, and contact flow optimized for lead generation.",
+      tech: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Static Export",
+        "Vercel",
+      ],
+      link: "https://www.diamondplumbinglv.com/",
+      category: "Business Website",
+    },
   ];
 
   const skills = {
@@ -122,6 +137,7 @@ export default function Home() {
     "Educational Management System: full-stack platform handling 40,000+ records, migrated from legacy CodeIgniter/jQuery to decoupled Laravel + React architecture.",
     "Automated Digital Certificates: API-driven secure PDF generation system that reduced processing time by 50%.",
     "Residential & Scholarship System: Laravel + React platform with refactored database models and granular permissions (Spatie).",
+    "Diamond Plumbing Las Vegas: Next.js business website with hero carousel, centralized site config, service pages, SEO metadata, and static export deployed to production.",
   ];
 
   return (
@@ -251,8 +267,8 @@ export default function Home() {
               Featured Projects
             </h2>
             <p className="text-slate-600">
-              Production systems delivered for education and residential
-              community management.
+              Production systems delivered for education, residential communities,
+              and local business marketing.
             </p>
           </div>
 
